@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import Hello from './function-comp/Hello';
 
 function App() {
   return (
-    <div className="App centered">
-      <h1>Hello</h1>
-    </div>
+    <Hello />
   );
 }
 
