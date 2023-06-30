@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App centered">
-      <b  >Chandan Patel</b> Learning ReactJs
+      <h1>Hello</h1>
     </div>
   );
 }
