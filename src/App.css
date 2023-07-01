@@ -1,20 +1,8 @@
-html,
-body,
-#root {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.centered {
-  text-align: center;
-}
 
 
 .App {
   text-align: center;
+  color:rgb(76, 0, 255);
 }
 
 .App-logo {
@@ -50,4 +38,64 @@ body,
   to {
     transform: rotate(360deg);
   }
+}
+
+  .skills-card {
+    border-radius: 0;
+    width: 120px;
+    height: 120px;
+  }
+.wallpaper{
+  /* background-image: url('/wallpaper.jpg'); */
+  background-size: cover;
+    background-position: center;
+}
+.resume {
+  margin-left: 20px;
+  margin-right: 20px;
+  min-height: 700px;
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .resume {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .resume {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  .resume {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+.circle {
+  width: 140px; /* Adjust the circle size as per your requirement */
+  height: 140px; /* Adjust the circle size as per your requirement */
+  border-radius: 90%; /* Create a circle shape */
+  background-color: #ccc; /* Adjust the background color as per your requirement */
+  margin-right: 50px; /* Adjust the margin between the circle and the content as per your requirement */
+}
+.profile-card{
+  display: flex;
+  align-items: center; /* Center align the circle vertically */
+  justify-content: center;
+}
+.heading{
+  color: rgb(230, 230, 239);
 }
