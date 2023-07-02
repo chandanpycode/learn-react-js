@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Hello from './function-comp/Hello';
+import React from 'react';
+import Profile from './Profile';
 
 function App() {
   return (
-    <Hello />
+   <div>
+     <Profile />
+   </div>
+  
   );
 }
 
